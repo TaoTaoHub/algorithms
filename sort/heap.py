@@ -7,7 +7,6 @@ class Heap(object):
         for x in list:
             self.insert(x)
 
-
     def delMax(self):
         if not self.length:
             return
