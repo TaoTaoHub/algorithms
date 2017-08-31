@@ -17,6 +17,7 @@ class Heap(object):
         self.__sink(1)                          #重建堆
         return max
 
+
     def insert(self, value):
         #放到堆末尾然后执行有序化
         self.length += 1
