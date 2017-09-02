@@ -13,6 +13,7 @@ def binarySearch(arr, value, l, r):
     else:
         return binarySearch(arr, value, m + 1, r)
 
+
 testlist = [1,2,4,6,7,8,9,10,22,34]
 result = binarySearch(testlist, 5, 0, len(testlist))
 print(result)
